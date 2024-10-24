@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas Kalkulator Sederhana</title>
+    
+  </head>
+  <body>
+    <h1> Tugas Kalkulator Sederhana bu Rizka</h1>
+    <form>
+      <label for="angka1">Angka 1:</label>
+      <input type="number" id="angka1"><br>
+
+      <label for="operator">Operator:</label>
+      <select id="operator">
+        <option value=""></option>
+        <option value="tambah">penjumlahan<option>
+        <option value="kurang">pengurangan</option>
+        <option value="kali">perkalian</option>
+        <option value="bagi">pembagian</option>
+        <option value="lebih kecil dari">lebih kecil</option>
+        <option value="lebih besar dari">lebih besar</option>
+        <option value="sama dengan">sama dengan</option>
+      </select><br>
+
+      <label for="angka2">Angka 2:</label>
+      <input type="number" id="angka2"><br>
+
+      <button type="button" onclick="hitung()">Hitung</button><br>
+
+      <label for="hasil">Hasil:</label>
+      <input type="text" id="hasil" readonly>
+    </form>
+  </body>
+</html>
